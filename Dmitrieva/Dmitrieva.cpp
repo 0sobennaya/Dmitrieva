@@ -2,10 +2,13 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main()
 {
+    string word;
     std::cout << "Hello World!\n";
+    cin >> word;
+    cout << word;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
